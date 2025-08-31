@@ -29,7 +29,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
-//this method will close the browser
+//comment change
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
